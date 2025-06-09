@@ -1,0 +1,204 @@
+  body {
+      font-family: Helvetica, Arial, sans-serif;
+      color: #DADFF7 ;
+      background-image: url('images/bakground.jpg');
+      background-size: cover;
+      background-attachment: fixed;
+      display: flex;
+      flex-direction: column;
+      font-style: Helvetica;
+  }
+
+  div {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+  ul.navbar {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background-color: #232C3388;
+      backdrop-filter: blur(10px);
+      z-index: 1000;
+  }
+
+  h1 {
+      font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif;
+      color: #A0C1D1
+  }
+
+  h2 {
+      font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif;
+      color: #A0C1D2;
+      text-decoration: underline;
+  }
+ 
+
+  ul.navbar li {
+      display: inline-block;
+      margin: 0.5em;
+      padding: 0.3em;
+      border: 1px solid #B5B2C2;
+      border-radius: 10px;
+      background: black;
+      color: white;
+      box-shadow: 2px 5px 5px black;
+  }
+
+  ul.navbar a {
+      text-decoration: none;
+      color: white;
+  }
+
+  a:link {
+      color: white;
+  }
+
+  a:visited {
+      color: #CD5C5C;
+  }
+
+  address {
+      margin-top: 1em;
+      padding-top: 1em;
+      border-top: thin dotted white;
+  }
+
+  .firstSection {
+      margin: 10px;
+      padding: 10px;
+      background: #232C33;
+      color: white;
+      border: 2px solid #4A5E6D;
+      border-radius: 10px;
+      box-shadow: 2px 5px 5px black;
+      margin-top: 75px;
+  }
+
+  section {
+      margin: 10px;
+      padding: 10px;
+      background: #232C33;
+      color: white;
+      border: 2px solid #4A5E6D;
+      border-radius: 10px;
+      margin-top: 10px;
+  }
+
+  footer {
+      margin: 10px;
+      padding: 10px;
+      background: #232C33;
+      color: white;
+      border: 2px solid #4A5E6D;
+      border-radius: 10px;
+      box-shadow: 2px 5px 5px black;
+      margin-top: 5px;
+
+  }
+
+  .txt{
+    text-shadow: 2px 5px 5px black;
+    border: 2px solid #4A5E6D ;
+  }
+
+  .section1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+  }
+
+  .section{
+
+    background-color: #232C3388;
+    backdrop-filter: blur(20px);
+    padding: 25px;
+    border: 2px solid #4A5E6D;
+  }
+
+
+  #codeFirst{
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+  }
+
+  #codeFirstFrench{
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+  }
+
+  .drapeau-france{
+    height: 2em;
+    width: 2em;
+    border-radius: 10px;
+  }
+
+  .drapeau-angleterre{
+    height: 2em;
+    width: 2em;
+    border-radius: 10px;
+  }
+
+
+  .imageDisplay{
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s;
+  } 
+
+  .imageDisplay:hover {
+      transform: scale(1.1);
+  }
+  
+  .imageDisplayPerso{
+    float: right;
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s;
+  } 
+
+  .imageDisplayPerso:hover {
+      transform: scale(1.1);
+  }
+
+  #imageIcone{
+    float: right;
+    height: 7em;
+    width: 7em;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s;
+  } 
+
+  .imageSoc{
+    float: right;
+    height: 4em;
+    width: 4em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s;
+  } 
+  .imageSoc:hover {
+      transform: scale(1.1);
+  }
+
+  #imageIcone:hover {
+      transform: scale(1.1);
+  }
+
+  .jaugeDisplay{
+    height: 25px;
+    width: 250px;
+    border-radius: 10px;
+  }
